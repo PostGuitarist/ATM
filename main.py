@@ -251,7 +251,7 @@ def main():
                drawatm()
                turtle.goto(-90, 150)
                turtle.pd()
-               turtle.write('Transaction is now', font=style)
+               turtle.write('Transaction is now - ', font=style)
                turtle.pu()
                turtle.goto(-70, 125)
                turtle.pd()
@@ -269,14 +269,14 @@ def main():
                turtle.write('Balance:' + str(accountObj.getBalance()), font=style)
                
                print('Transaction is now complete.')
-               print('Thanks for choosing us as your bank')
+               print('Thank you for choosing us as your bank.')
                time.sleep(5)
                turtle.reset()
                main()
  
            # Any other choice
            else:
-               print("\nThat's an invalid choice.")
+               print("\nThat is an invalid choice.")
  
 # Main function
 main()
